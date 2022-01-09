@@ -10,6 +10,7 @@ gcc simpleshell.c
 ```
 ## Demonstration
 First I create a new directory.
+
 ![image](https://user-images.githubusercontent.com/47959146/148694411-86ce3d57-5188-41dc-a39a-177d1b95863e.png)
 
 Inside the directory, I create and edit a text file using vim.
