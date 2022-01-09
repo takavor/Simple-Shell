@@ -17,6 +17,7 @@ Here, I create and edit a file using vim, and demonstrate simple command piping.
 ![image](https://user-images.githubusercontent.com/47959146/148694828-dbbaafe6-a354-4e7c-a713-56d2a4aec7aa.png)
 
 Here, I use output redirection to create a new file from the previous file.
+
 ![image](https://user-images.githubusercontent.com/47959146/148695450-0450f324-095f-4854-b516-edb19d8c75de.png)
 
 
