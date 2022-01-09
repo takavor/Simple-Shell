@@ -11,23 +11,6 @@
  * 
  * 8/10/2021
  * 
- * Welcome to my assignment submission!
- * 
- * Notes for the grader:
- *      --Ctrl+c and ctrl+z do not cause a new prompt to display, but they work as intended, meaning that they do not
- * stop/suspend the mini shell itself, they stop/suspend processes generated from it.
- *      --The jobs command displays all the commands that have been launched in background mode, instead of listing
- * only the ones that are currently running in the background. I couldn't figure out a way to send information about 
- * the process ID of the child running in the background which terminated, inside the signal handler, as the signal 
- * handler doesn't accept any parameters. So when the child terminates, even though the parent knows it terminated,
- * it doesn't know which child terminated, and can't access the jobs array to remove this child job.
- *      --Piping is not supported with "pwd" and "jobs" as they are builtin commands. I tried asking on Ed whether
- * we must implement piping for these commands but got no answer. I hesitated since the only way I could think of
- * piping the builtin commands was writing the output to the disk (since we can't use execvp for the builtin commands),
- * but writing to disk wasn't allowed as stated in the assignment instructions. Also, it wasn't clear whether we 
- * should have only supported piping simple commands such as ls | wc -l.
- * 
- * Hope you have a great grading experience! =)
  * */
 
 // global int variable denoting number of background jobs
