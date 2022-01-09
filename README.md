@@ -8,7 +8,6 @@ git clone https://github.com/takavor/Simple-Shell.git
 gcc simpleshell.c
 ./a.out
 ```
-
 ## Demonstration
 
 
