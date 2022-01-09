@@ -9,11 +9,17 @@ gcc simpleshell.c
 ./a.out
 ```
 ## Demonstration
-First I create a new directory.
+In the following, I create and edit a file using vim, and demonstrate simple command piping.
 
-![image](https://user-images.githubusercontent.com/47959146/148694444-fcaf7a7e-cb32-4f34-9bc8-b3b6acee3886.png)
+![image](https://user-images.githubusercontent.com/47959146/148694828-dbbaafe6-a354-4e7c-a713-56d2a4aec7aa.png)
 
-Inside the directory, I create and edit a text file using vim.
+In the following, I use output redirection to create a new file using the file created previously.
+
+![image](https://user-images.githubusercontent.com/47959146/148694892-1ede5b9c-38cc-47a9-b2ce-da8b7c556482.png)
+
+
+
+
 
 
 
