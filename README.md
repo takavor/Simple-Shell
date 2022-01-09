@@ -9,7 +9,7 @@ gcc simpleshell.c
 ./a.out
 ```
 ## Simple Demonstration
-Here, I use the ping commands in the background.
+Here, I use the ping commands in the background by including `&` at the end of the command.
 ![image](https://user-images.githubusercontent.com/47959146/148695390-b5ae2bb8-d88a-420a-8b88-e041f8f7317c.png)
 
 Here, I create and edit a file using vim, and demonstrate simple command piping.
